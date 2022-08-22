@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Movies</title>
-  </head>
-  <body>
-    <header>
-    <span><strong>FilmBaz</strong></span>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+</head>
+
+<body>
+  <header>
+    <span>
+      <strong>
+        FilmBaz
+      </strong>
+    </span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span>
       <input type="search" placeholder="  Search anything ...      ;)" />
-      <input type="submit" value="search" />
+      <input type="submit" value="Search" />
     </span>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><a href="index.html">Main Page</a></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><a href="premium.html">Acoount(Premium)</a></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span><a href="news.html">News</a></span>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <span><a href="premium.html">Premium</a></span>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <span><a href="premium.html">Log In</a></span>
+    <span><a href="series.html">Tv Series</a></span>
     <hr>
-    </header>
+  </header>
 
+  <main>
     <h1>Suggestion</h1>
     <br />
-    <figure>
-      <img
-        src="images/Movie/movie.jpg"
-       
-        alt="A Beautiful Mind"
-      />
-      </figure>
-      <h3>A Beautiful Mind</h3><p>2001&nbsp;|&nbsp;Biography - Drama &nbsp;|&nbsp; 2h 15m &nbsp;|&nbsp; PG-13 &nbsp;&nbsp; <b>IMDB : 8.2/10 &nbsp;&nbsp;Rotten Tomato : 74% </b></p>
-      <p><b>Director :</b> Ron Howard</p>
-      <p><b>Box office :</b> $367,151</p>
-      <p>After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography,<br>his life takes a turn for the nightmarish.</p>
+    <img src="images/Movie/movie.jpg" alt="A Beautiful Mind" />
+    <h3>A Beautiful Mind</h3>
+    <p>
+      2001 | Biography - Drama | 2h 15m |
+      <b>IMDB : 8.2/10 | Rotten Tomato : 74% </b>
+    </p>
+    <p><b>Director :</b> Ron Howard</p>
+    <p><b>Box office :</b> $367,151</p>
+    <p>After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography,
+      <br>his life takes a
+      turn for the nightmarish.
+    </p>
+  </main>
 
-<details>
-      <summary><span>Download List</span></summary>
+  <section>
+    <details>
+      <summary>Download List</summary>
       <ul>
         <li>
           <a href="#">Download with 1080P HD</a>
@@ -44,54 +59,57 @@
           <a href="#">Download with 720P HD</a>
         </li>
         <li>
-       <a href="#">Download with 480P HD</a>
+          <a href="#">Download with 480P HD</a>
         </li>
         <li>
           <a href="#">Download Farsi doube </a>
-         </li>
+        </li>
         <li>
           <a href="#">Download Subtitle</a>
-
-        </li>      
+        </li>
       </ul>
     </details>
-     <br>
+  </section>
+  <br>
 
-     Rate Movie:  <input type="radio" id="huey" name="drone" value="huey"
-             checked>
-      <label for="huey">Boring</label>
-  
-      <input type="radio" id="dewey" name="drone" value="dewey">
-      <label for="dewey">Good</label>
-   
-      <input type="radio" id="louie" name="drone" value="louie">
-      <label for="dewey">Awesome</label>
-      <br>
-      <br>
-       <label for="story">Tell us your story:</label>
-<br>
-<br>
-<textarea placeholder=" This Movie was amazing ..."id="story" name="story"
- rows="5" cols="33">
-</textarea>
-<br>
-<input type="submit">
+  <section>
+    <span>Rate Movie:</span>
+    <input type="radio" id="boring" name="drone" value="boring">
+    <label for="boring">Boring</label>
 
-      <h2>Top 10 Movies of this Week</h2>
-      <table border="3px">
+    <input type="radio" id="good" name="drone" value="good">
+    <label for="good">Good</label>
+
+    <input type="radio" id="awesome" name="drone" value="awesome">
+    <label for="awesome">Awesome</label>
+  </section>
+  <br>
+
+  <section>
+    <label for="story">Leave a comment:</label>
+    <br>
+    <textarea placeholder="This Movie was amazing ..." id="comment" name="comment" rows="5" cols="33">
+    </textarea>
+    <br>
+    <input type="submit">
+  </section>
+
+  <section>
+    <h2>Top 10 Movies of this Week</h2>
+    <table border="1px">
       <thead>
         <tr>
           <th>Title</th>
           <th>Weekend</th>
           <th>Gross</th>
-          <th>Weeks	</th>
+          <th>Weeks </th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>Bullet Train</td>
-          <td>$13.4M	</td>
-          <td >$54.5M</td>
+          <td>$13.4M </td>
+          <td>$54.5M</td>
           <td>2</td>
         </tr>
         <tr>
@@ -107,7 +125,7 @@
           <td>3</td>
         </tr>
         <tr>
-          <td >Thor: Love and Thunder</td>
+          <td>Thor: Love and Thunder</td>
           <td>$5.4M</td>
           <td>$325.5M</td>
           <td>6</td>
@@ -119,44 +137,47 @@
           <td>4</td>
         </tr>
         <tr>
-          <td>	Minions: The Rise of Gru</td>
-          <td>	$5.0M</td>
-          <td>	$343.8M</td>
+          <td> Minions: The Rise of Gru</td>
+          <td> $5.0M</td>
+          <td> $343.8M</td>
           <td>7</td>
         </tr>
-<tr>
+        <tr>
           <td>Where the Crawdads Sing</td>
-          <td >	$4.0M</td>
+          <td> $4.0M</td>
           <td>$72.2M</td>
           <td>5</td>
         </tr>
         <tr>
-          <td>	Bodies Bodies Bodies</td>
-          <td>	$3.1M</td>
-          <td>	$3.5M</td>
+          <td> Bodies Bodies Bodies</td>
+          <td> $3.1M</td>
+          <td> $3.5M</td>
           <td>2</td>
         </tr>
         </tr>
         <tr>
-          <td>	Elvis</td>
+          <td> Elvis</td>
           <td>$2.6M</td>
           <td>$141.3M</td>
           <td>8</td>
         </tr>
         <tr>
-          <td>	Fall</td>
-          <td>	$2.5M</td>
-          <td>	Fall</td>
+          <td> Fall</td>
+          <td> $2.5M</td>
+          <td> Fall</td>
           <td>1</td>
         </tr>
       </tbody>
     </table>
-<br>
-<hr>
-<footer>
-      <pre>
-                                   Powered by Group6 3D            <a href="#">Instagram</a>   <a href="#">Telegram</a>   <a href="#">Twitter</a>           <a href="premium.html">Premium</a> | <a href="index.html">Landing Page</a> | <a href="news.html">News</a>                  
-        </pre>
-    </footer>
-  </body>
+  </section>
+  <br>
+
+  <hr>
+  <footer>
+    <pre>
+                                 Powered by Group6 3D            <a href="#">Instagram</a>   <a href="#">Telegram</a>   <a href="#">Twitter</a>           <a href="premium.html">Premium</a> | <a href="index.html">Main Page</a> | <a href="news.html">News</a>                  
+  </pre>
+  </footer>
+</body>
+
 </html>
